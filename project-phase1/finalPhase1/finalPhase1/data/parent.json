@@ -1,0 +1,32 @@
+[
+  {
+    "id": 0,
+    "firstname": "hassan",
+    "lastname": "ali",
+    "email": "hassan@parent.com",
+    "password": "hassan"
+  },
+  {
+    "id": 1,
+    "firstname": "hesham",
+    "lastname": "zaki",
+    "email": "hesham@parent.com",
+    "password": "hesham"
+  },
+  {
+    "id": 2,
+    "firstname": "marwan",
+    "lastname": "mohd",
+    "email": "hesham@parent.com",
+    "password": "hesham"
+  },
+  {
+    "id": 3,
+    "firstname": "bilal",
+    "lastname": "ahmed",
+    "country": "EG",
+    "mobile": "964-323232",
+    "email": "bilal@parent.com",
+    "password": "bilal"
+  }
+]

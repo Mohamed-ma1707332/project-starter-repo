@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../CSS/index.css" />
+    <link rel="stylesheet" href="../CSS/search.css" />
+    <title>Admin panel</title>
+
+  </head>
+  <body>
+    <div class="topnav">
+      <a class="active" href="#home">Home</a>
+      <a href="Reportincident.html">Report Incident</a>
+      <a href="../HTML/getIncident.html">Report</a>
+      <a href="../HTML/Login.html">Login</a>
+      <a href="#about">Logout</a>
+    </div>
+    <div class="groupfilter">
+      <div class="item">From Date</div>
+      <div class="item"><input type="date" /></div>
+      <div class="item">To Date</div>
+      <div class="item"><input type="date" /></div>
+      <div class="item">Grade level</div>
+      <div class="item"><input typw="text" /></div>
+    </div>
+
+    <div class="searchgrid">
+      <input
+        type="text"
+        placeholder="Enter ID student"
+        name="uname"
+        class="search"
+        required
+      />
+
+      <button class="searchbtn">Search</button>
+    </div>
+
+    <table id="employeeList" class="list">
+      <tr>
+        <th>Indcident Type</th>
+        <th>Count</th>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+      </tr>
+    </table>
+    <script src="../JS/incidentRepository.js"></script>
+  </body>
+</html>
